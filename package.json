@@ -11,7 +11,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Maximilian Schwarzmüller - Seunghun Bang for study purpose",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
