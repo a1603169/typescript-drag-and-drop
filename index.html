@@ -12,22 +12,22 @@
     <template id="project-input">
       <form>
         <div class="form-control">
-          <label for="title">제목</label>
+          <label for="title">TITLE</label>
           <input type="text" id="title" />
         </div>
         <div class="form-control">
-          <label for="description">설명</label>
+          <label for="description">DESCRIPTION</label>
           <textarea id="description" rows="3"></textarea>
         </div>
         <div class="form-control">
-          <label for="people">사람</label>
+          <label for="people">PEOPLE</label>
           <input type="number" id="people" step="1" min="0" max="10" />
         </div>
-        <button type="submit">프로젝트 추가</button>
+        <button type="submit">ADD PROJECT</button>
       </form>
     </template>
     <template id="single-project">
-      <li>
+      <li draggable="true">
         <h2></h2>
         <h3></h3>
         <p></p>

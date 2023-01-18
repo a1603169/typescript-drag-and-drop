@@ -38,8 +38,8 @@ textarea:focus {
 
 button {
   font: inherit;
-  background: lightgreen;
-  border: 1px solid lightgreen;
+  background: lightblue;
+  border: 1px solid lightblue;
   cursor: pointer;
   color: Black;
   padding: 0.75rem 1rem;
@@ -54,8 +54,8 @@ button:focus {
 button:hover,
 button:active {
   box-shadow: 0 0 3px;
-  background: rgb(30, 130, 30);
-  border-color: rgb(30, 130, 30);
+  background: rgb(70, 131, 151);
+  border-color: rgb(70, 131, 151);
 }
 
 .projects {
@@ -72,11 +72,11 @@ button:active {
 }
 
 #finished-projects {
-  border-color: #0044ff;
+  border-color: lightcoral;
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: lightcoral;
 }
 
 .projects h2 {
@@ -94,6 +94,7 @@ button:active {
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);
   padding: 1rem;
   margin: 1rem;
+  background-color: rgb(244, 236, 220);
 }
 
 .projects li h2 {
@@ -102,7 +103,7 @@ button:active {
 }
 
 #finished-projects li h2 {
-  color: #0044ff;
+  color: lightcoral;
 }
 
 .projects li h3 {
@@ -115,11 +116,11 @@ button:active {
 }
 
 .droppable {
-  background: #ffe3ee;
+  background: rgb(208, 234, 243);
 }
 
 #finished-projects .droppable {
-  background: #d6e1ff;
+  background: rgb(243, 171, 171);
 }
 
 #user-input {
